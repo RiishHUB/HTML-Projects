@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Booking System</title>
+</head>
+<body>
+    <header align="center">
+        <h1>City Express Bus Reservation</h1>
+        <p>Book your journey easily and safely</p>
+    </header>
+    <hr>
+    <hr>
+
+    <!-- Creating navigation bar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#Buses">Buses</a>
+        <a href="#Booking">Book Ticket</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <hr>
+
+    <!-- Bus information  -->
+    <main>
+        <section id="home">
+            <h2>Available Bus Services</h2>
+            <img src="" alt="Bus Image">
+            <p>
+                We provide AC, Non-AC, Sleeper and Luxury buses across India.
+            </p>
+        </section>
+
+        <section id="Buses">
+            <h2>Bus Schedule</h2>
+            <table border="1">
+                <tr>
+                    <th>Bus</th>
+                    <th>From</th>
+                    <th>To</th>
+                    <th>Departure</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Express 101</td>
+                    <td>Delhi</td>
+                    <td>Dehradun</td>
+                    <td>8:00 AM</td>
+                    <td>650</td>
+                </tr>
+                <tr>
+                    <td>Luxury</td>
+                    <td>Roorkee</td>
+                    <td>Haridwar</td>
+                    <td>10:30 AM</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <td>Sleeper 500</td>
+                    <td>Delhi</td>
+                    <td>Lucknow</td>
+                    <td>9:00 AM</td>
+                    <td>1200</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Facilities</h2>
+            <ul>
+                <li>Free Wifi</li>
+                <li>Water Bottle</li>
+                <li>Blanket</li>
+                <li>GPS Tracking</li>
+            </ul>
+            <h3>Booking Steps</h3>
+            <ol>
+                <li>Select Bus</li>
+                <li>Fill Details</li>
+                <li>Choose Seat</li>
+                <li>Pay Online</li>
+                <li>Download Ticket</li>
+            </ol>
+        </section>
+
+        <section id="Booking">
+            <h2>Bus Reservation Form</h2>
+            <form action="">
+                <label for="">Name:</label>
+                <input type="text" name="" id="" required placeholder="Enter Your Name">
+                <br><br>
+
+                <label for="">Email:</label>
+                <input type="email" required placeholder="Enter your email">
+                <br><br>
+
+                <label for="">Departure Time:</label>
+                <input type="time">
+                <br><br>
+
+                <label for="">Phone:</label>
+                <input type="tel" maxlength="10" placeholder="Enter your mobile number">
+                <br><br>
+
+                <label for="">Number of Tickets:</label>
+                <input type="number" name="" id="" placeholder="Enter Number of Tickets">
+                <br><br>
+
+                <label for="">Select Bus:</label>
+                <select name="" id="">
+                    <option value="">Express 101</option>
+                    <option value="">Luxury 100</option>
+                    <option value="">Sleeper 500</option>
+                </select>
+                <br><br>
+
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+                <input type="radio" name="gender">Other
+                <br><br>
+
+                <label for="">Facilities Needed</label>
+                <br>
+                <input type="checkbox">Food
+                <br>
+                <input type="checkbox">Window Seat
+                <br>
+                <input type="checkbox">Charging Point
+                <br><br>
+
+                <label for="">Pickup Location</label>
+                <input type="text" name="" id="" list="cities">
+                <datalist id="cities">
+                    <option value="">Delhi</option>
+                    <option value="">Roorkee</option>
+                    <option value="">Haridwar</option>
+                    <option value="">Dehradun</option>
+                </datalist>
+                <br><br>
+
+                <label for="">Special Request</label>
+                <br>
+                <textarea name="" id="" rows="5" cols="40"></textarea>
+                <br><br>
+
+                <input type="submit" value="Book Ticket">
+                <input type="reset">
+            </form>
+        </section>
+        <article>
+            <h2>Terms & Conditions</h2>
+            <p>
+                Passengers should reach the boarding point 30 minutes before departure.
+            </p>
+        </article>
+        <aside id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: support@cityexpress.com</p>
+            <p>Phone: +91 9876543210</p>
+            <p>Address: Dehradun, Uttarakhand</p>
+        </aside>
+        <footer>
+            <hr>
+            <p>&copy 2026 City Express Bus Reservation System</p>
+        </footer>
+    </main>
+</body>
+</html>
