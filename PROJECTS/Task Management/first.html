@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management System</title>
+</head>
+<body>
+
+    <header   align = 'center'>
+        <h1>Task Management System</h1>
+        <p>Organize your daily work efficiently</p>
+    </header>
+    <nav>
+        <a href="#Home">Home</a>
+        <a href="#Add task">Add Task</a>
+        <a href="#Today task">Today's Task</a>
+        <a href="#">Completed</a>
+        <a href="#">Contact</a>
+    </nav>
+    <section id="Home">
+        <h2>Welcome</h2>
+        <p>
+            This dashboard helps you manage your daily tasks, assignments and projects.
+        </p>
+    </section>
+
+    <section id="Add task">
+        <h2>Add New Task</h2>
+        <form action="">
+            <label for="task">Task Name</label>
+            <input type="text" name="" id="task" placeholder="Enter Task Name" required>
+            <br><br>
+
+            <label for="description">
+                Task Description
+            </label>
+            <br>
+            <textarea name="" id="description" rows="5" cols="40">
+            </textarea>
+            <br><br>
+
+            <label for="date">
+                Due Date
+            </label>
+            <input type="date" name="" id="date">
+            <br><br>
+            
+            <label for="">
+                Priority
+            </label>
+            <input type="radio" name="priority" id="">Low
+            <input type="radio" name="priority">Medium
+            <input type="radio" name="priority">High
+            <br><br>
+            <label for="">
+                Category
+            </label>
+            <select name="" id="">
+                <option value="">Study</option>
+                <option value="">Office</option>
+                <option value="">Personal</option>
+                <option value="">Shopping</option>
+                <option value="">Workout</option>
+            </select>
+            <br><br>
+            <label for="">
+                Status
+            </label>
+            <select name="" id="">
+                <option value="">Pending</option>
+                <option value="">In Progress</option>
+                <option value="">Completed</option>
+            </select>
+            <br><br>
+            <label for="">
+                Attach File
+            </label>
+            <input type="file">
+            <br><br>
+            <input type="submit" name="" id="" value="Add Task">
+            <br><br>
+            <input type="reset" value="clear">
+        </form>
+    </section>
+
+    <section id="Today task">
+        <h2>Today's Tasks</h2>
+        <table border="1">
+            <tr>
+                <th>Task</th>
+                <th>Category</th>
+                <th>Priority</th>
+                <th>Status</th>
+                <th>Due Date</th>
+            </tr>
+            <tr>
+                <td>HTML Project</td>
+                <td>Study</td>
+                <td>High</td>
+                <td>Pending</td>
+                <td>1-11-2026</td>
+            </tr>
+            <tr>
+                <td>Gym</td>
+                <td>Workout</td>
+                <td>Medium</td>
+                <td>Completed</td>
+                <td>1-11-2026</td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <h2>Task Category List</h2>
+        <ul>
+            <li>Study</li>
+            <li>Office</li>
+            <li>Personal</li>
+            <li>Shopping</li>
+            <li>Workout</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Important Notes</h2>
+        <fieldset>
+            <legend>
+                Reminder
+            </legend>
+            <p>Complete High Priority tasks before evening.</p>
+        </fieldset>
+    </section>
+    <footer>
+        <hr>
+        <p>
+            &copy 2026 Task Management System
+        </p>
+    </footer>
+
+</body>
+</html>
